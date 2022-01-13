@@ -13,44 +13,67 @@
 		/>
 	</head>
 	<body>
-		<!-- container -->
-		<div class="container my-5">
-			<h2>container normal</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste
-				recusandae aliquid atque exercitationem rerum quidem voluptatum id in
-				nostrum quisquam sit laborum, quas excepturi, sunt nam necessitatibus
-				dolore dolorum sapiente.
-			</p>
-		</div>
-
-		<div class="container-fluid my-5">
-			<h2>fluid</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure harum,
-				voluptates nisi odit quae recusandae nemo, accusamus consequatur ea
-				consequuntur quibusdam veritatis distinctio sunt dolores. Adipisci ad
-				voluptate ab non.
-			</p>
+		<!-- grid layout -->
+		<div class="container-lg my-5">
+			<h2>basic grid</h2>
+			<div class="row">
+				<div class="col">
+					<div class="p-5 bg-primary text-light">col1</div>
+				</div>
+				<div class="col">
+					<div class="p-5 bg-primary text-light">col2</div>
+				</div>
+				<div class="col">
+					<div class="p-5 bg-primary text-light">col3</div>
+				</div>
+			</div>
 		</div>
 
 		<div class="container-lg my-5">
-			<h2>container large</h2>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, ad sint
-				numquam iure asperiores voluptatem nam obcaecati corrupti, ducimus ullam
-				dolorum nulla laudantium. Odio nihil aspernatur cumque rem accusantium
-				repudiandae!
-			</p>
+			<h2>column with</h2>
+			<div class="row">
+				<div class="col-6">
+					<div class="p-5 bg-primary text-light">col1</div>
+				</div>
+				<div class="col-3">
+					<div class="p-5 bg-primary text-light">col2</div>
+				</div>
+				<div class="col-3">
+					<div class="p-5 bg-primary text-light">col3</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="container-xl my-5">
-			<h2>xl</h2>
-			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla repellat
-				totam quod dicta non quibusdam earum, quo sunt, nesciunt laborum
-				exercitationem autem et odio! Enim laborum vel quam est dolor.
-			</p>
+		<!-- responsive -->
+		<div class="container-lg my-5">
+			<h2>responseive column</h2>
+			<div class="row gy-3">
+				<div class="col-sm-4 col-lg-6">
+					<div class="p-5 bg-primary text-light">col 1</div>
+				</div>
+				<div class="col-sm-4 col-lg-3">
+					<div class="p-5 bg-primary text-light">col 2</div>
+				</div>
+				<div class="col-sm-4 col-lg-3">
+					<div class="p-5 bg-primary text-light">col 3</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container-lg my-5">
+			<h2>justify</h2>
+			<div class="row justify-content-center">
+				<!-- j-c-end, j-c-start, j-c-between, j-c-around -->
+				<div class="col-md-3">
+					<div class="p-5 bg-primary text-light">col 1</div>
+				</div>
+				<div class="col-md-3">
+					<div class="p-5 bg-primary text-light">col 2</div>
+				</div>
+				<div class="col-md-3">
+					<div class="p-5 bg-primary text-light">col 3</div>
+				</div>
+			</div>
 		</div>
 
 		<script
